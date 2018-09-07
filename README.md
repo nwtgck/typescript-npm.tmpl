@@ -1,4 +1,5 @@
 # typescript-npm-template
+[![Build Status](https://travis-ci.com/nwtgck/typescript-npm-template.svg?token=TuxNpqznwwyy7hyJwBVm&branch=develop)](https://travis-ci.com/nwtgck/typescript-npm-template)
 
 npm template of TypeScript
 
