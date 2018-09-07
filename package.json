@@ -1,0 +1,31 @@
+{
+  "name": "typescript-npm-template",
+  "version": "0.1.0-SNAPSHOT",
+  "description": "npm template of TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "mocha --require ts-node/register test/**/*.ts"
+  },
+  "keywords": [
+    "TypeScript",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwtgck/typescript-npm-template"
+  },
+  "author": "Ryo Ota",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^5.0.0",
+    "@types/power-assert": "^1.5.0",
+    "espower-typescript": "^9.0.0",
+    "mocha": "^5.0.5",
+    "power-assert": "^1.4.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  }
+}
