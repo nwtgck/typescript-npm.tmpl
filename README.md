@@ -5,7 +5,6 @@ npm template of TypeScript
 
 ## What should you change?
 
-- [README.md](README.md)
 - [package.json](package.json)
   - `"name"`
   - `"keywords"`
@@ -13,3 +12,4 @@ npm template of TypeScript
 - [LICENSE](LICENSE)
 - [lib/index.ts](lib/index.ts)
 - [test/index.test.ts](test/index.test.ts)
+- [README.md](README.md)
