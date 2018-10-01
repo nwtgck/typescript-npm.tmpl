@@ -10,8 +10,9 @@ node_js:
 install:
   # Install tmpl
   - go get -u github.com/nwtgck/tmpl
-script:
+script: 
   # Fill variables by tmpl
-  - tmpl fill --fill-yaml="{project_name: myproject, description: 'My Project', github_user: hogehogeuser, keywords: [http, server, example]}"
+  - |
+    tmpl fill --fill-yaml="{project_name: myproject, description: 'My Project', github_user: hogehogeuser, keywords: [http, server, example]}"
   - npm install
   - npm test
