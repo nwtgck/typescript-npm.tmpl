@@ -1,7 +1,7 @@
 {
-  "name": "typescript-npm-template",
+  "name": "{{.project_name}}",
   "version": "0.1.0-SNAPSHOT",
-  "description": "npm template of TypeScript",
+  "description": "{{.description}}",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "scripts": {
@@ -10,14 +10,16 @@
     "test": "mocha --require ts-node/register test/**/*.ts"
   },
   "keywords": [
-    "TypeScript",
-    "template"
+    {{- range $i, $keyword := .keywords -}}
+    {{- if $i }},{{ end }}
+    "{{ $keyword }}"
+    {{- end }}
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nwtgck/typescript-npm-template"
+    "url": "https://github.com/{{.github_user}}/{{.project_name}}"
   },
-  "author": "Ryo Ota",
+  "author": "{{.UserName}}",
   "license": "MIT",
   "devDependencies": {
     "@types/mocha": "^5.0.0",

@@ -1,0 +1,5 @@
+variables:
+ project_name: ""
+ description: ""
+ keywords: "array"
+ github_user: ""

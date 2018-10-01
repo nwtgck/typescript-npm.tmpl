@@ -1,3 +1,5 @@
+// TODO: You should change this content.
+
 import {hoge}  from '../lib';
 import * as assert from 'power-assert';
 
