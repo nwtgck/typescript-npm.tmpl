@@ -8,6 +8,11 @@ node_js:
   - "6"
   - "5"
 install:
+  # Install tmpl
+  - go get -u github.com/nwtgck/tmpl
+script: 
+  # Fill variables by tmpl
+  - |
+    tmpl fill --fill-yaml="{project_name: myproject, description: 'My Project', github_user: hogehogeuser, keywords: [http, server, example]}"
   - npm install
-script:
   - npm test
