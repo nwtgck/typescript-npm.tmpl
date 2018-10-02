@@ -1,11 +1,15 @@
 # {{.project_name}}
-<!-- TOOD: You should remove the following badges and this content of README.md -->
+{{- /*
 [![Build Status](https://travis-ci.com/nwtgck/typescript-npm.tmpl.svg?branch=develop)](https://travis-ci.com/nwtgck/typescript-npm.tmpl)
+*/ -}}{{/**/}}
 
 {{.description}}
 
-## What should you change?
+{{- /* **NOTE: Section below will be removed by `tmpl`.**
+## What should you change after `tmpl` run?
 
-- [lib/index.ts](lib/index.ts)
-- [test/index.test.ts](test/index.test.ts)
-- [README.md](README.md)
+- [lib/index.ts](lib/index.ts) - `hoge()` function defined
+- [test/index.test.ts](test/index.test.ts) - `hoge()` function tested
+
+*/ -}}
+{{/**/}}
