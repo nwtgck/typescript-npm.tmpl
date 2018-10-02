@@ -1,11 +1,8 @@
-# {{.project_name}}
-{{- /*
+{{- /* **NOTE: This  template comment will be removed by [`tmpl`].**
+# typescript-npm.tmpl
 [![Build Status](https://travis-ci.com/nwtgck/typescript-npm.tmpl.svg?branch=develop)](https://travis-ci.com/nwtgck/typescript-npm.tmpl)
-*/ -}}{{/**/}}
 
-{{.description}}
-
-{{- /* **NOTE: Section below will be removed by [`tmpl`].**
+Template of npm project for TypeScript
 
 ## How to use this template
 
@@ -13,11 +10,11 @@
 # Install tmpl
 go get -u github.com/nwtgck/tmpl
 
-# Fill by tmpl
+# Create a project from this template
 tmpl new https://github.com/nwtgck/typescript-npm.tmpl.git yourproject
 ```
 
-Then, you will have `yourproject` directory.
+Then, you will have `yourproject/` directory.
 
 ## What should you change after [`tmpl`] run?
 
@@ -26,5 +23,8 @@ Then, you will have `yourproject` directory.
 
 [`tmpl`]: https://github.com/nwtgck/tmpl
 
+<!-- The following section is a template of README.md-->
 */ -}}
-{{/**/}}
+# {{.project_name}}
+
+{{.description}}
