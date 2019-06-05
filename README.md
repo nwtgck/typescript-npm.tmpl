@@ -18,7 +18,7 @@ Then, you will have `yourproject/` directory.
 
 ## What should you change after [`tmpl`] run?
 
-- [lib/index.ts](lib/index.ts) - `hoge()` function defined
+- [src/index.ts](src/index.ts) - `hoge()` function defined
 - [test/index.test.ts](test/index.test.ts) - `hoge()` function tested
 
 [`tmpl`]: https://github.com/nwtgck/tmpl

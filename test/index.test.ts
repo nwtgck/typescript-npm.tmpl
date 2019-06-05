@@ -1,6 +1,6 @@
 // TODO: You should change this content.
 
-import {hoge}  from '../lib';
+import {hoge}  from '../src';
 import * as assert from 'power-assert';
 
 describe('hoge', () => {
